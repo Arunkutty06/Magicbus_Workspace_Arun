@@ -1,0 +1,18 @@
+.container{
+    background-color: black;
+    height:300px;
+    width: 500px;
+    color: aqua;
+    padding-top: 10%;
+    padding-left:10%;
+    border: 5px dotted red;
+}
+
+
+.container1{
+    background-color: brown;
+    color: aqua;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
