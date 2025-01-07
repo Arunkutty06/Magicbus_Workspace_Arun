@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    padding: auto;
+
+}
+.Container {
+    background-color: gold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+
+
+}
+.box1{
+    background-color: inherit;
+}
+p{
+    background-color: inherit;
+}
+.box1 img{
+    
+    height: 200px; width: 200px;
+}
+
+.con{
+    display: grid;
+    background-color: rgb(190, 188, 192);
+    grid-template-columns: 1fr 1fr;
+}
+.flex1{
+    background-color: rgb(226, 43, 43);
+    grid-column: 1/3;
+    height: 5vh;
+}
+.flex2{
+    background-color: blueviolet;
+    grid-column: 1/2 ;
+    height: 20vh;
+}
+.flex3{
+    background-color: rgb(126, 101, 149);
+    grid-column: 2/2 ;
+    height: 20vh;
+}
+.flex4{
+    background-color: rgb(53, 233, 110);
+    grid-column: 1/2 ;
+    height: 5vh;
+}
