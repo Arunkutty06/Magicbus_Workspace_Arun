@@ -29,15 +29,15 @@ input {
 }
 
 /* Label */
-label:focus {
+/* label:focus {
     margin-top: 25px;
     color: black;
-}
+} */
 label {
     position: absolute;
     top: 100%;
     left: 8px;
-    /* margin-top: 25px; */
+    margin-top: 25px;
     transform: translateY(-50%);
     font-size: 16px;
     color: #999;
@@ -52,7 +52,7 @@ input:focus {
 
 input:focus + label,
 input:valid + label {
-    top: 0px;
+    top: -8px;
     left: 8px;
     font-size: 15px;
     color: #007BFF;
@@ -60,7 +60,17 @@ input:valid + label {
     padding: 0 4px;
 }
 
-.button{
+.button:hover {
+  padding: 12px 8px;
+  font-size: 16px;
+  justify-content: center;
+  width: 100%;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+
+.button {
   padding: 12px 8px;
   font-size: 16px;
   justify-content: center;

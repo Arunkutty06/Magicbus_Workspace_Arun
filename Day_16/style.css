@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 801px) {
+    header{
+        display: flex;
+        height: 10vh;
+        background-color: rgb(250, 221, 221);
+        border: 1px solid black;
+        margin-bottom: 10px;
+    
+    }
+    .main-section1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 10px;
+    
+    }
+    .sub1-section1{
+        background-color:rgb(235, 180, 108);
+        height: 40vh;
+    }
+    .sub2-section2{
+        background-color:burlywood;
+        height: 40vh;
+    }
+    
+    
+    
+    
+    
+    /* Second 2 */
+    .main-section2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 5px;
+    }
+    .sub-section1{
+        display: grid;
+        /* background-color: rgb(0, 255, 26); */
+        height: 40vh;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        justify-items: center;
+    
+    
+    }
+    .sub-div1{
+        height: 35vh;
+        width: 25vb;
+        background-color: black;
+    }
+    .sub-div2{
+        height: 35vh;
+        width: 25vb;
+        background-color: black;
+    }
+    
+    
+    .sub-section2{
+        display: grid;
+        /* background-color: rgb(0, 140, 255); */
+        height: 40vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    
+    
+    }
+    .sub1-div1{
+        height: 20vh;
+        background-color: rgb(135, 90, 32);
+    }
+    .sub2-div2{
+        height: 20vh;
+        background-color: burlywood;
+    }
+    .sub3-div3{
+        height: 20vh;
+        background-color: rgb(183, 133, 68);
+    }  
+}
+
+@media only screen and (min-width: 510px) and (max-width: 800px) {
+    header{
+        display: flex;
+        height: 10vh;
+        background-color: rgb(250, 221, 221);
+        border: 1px solid black;
+        margin-bottom: 10px;
+    
+    }
+    .main-section1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 10px;
+    
+    }
+    .sub1-section1{
+        background-color:rgb(235, 180, 108);
+        height: 40vh;
+    }
+    .sub2-section2{
+        background-color:burlywood;
+        height: 40vh;
+    }
+    
+    
+    
+    
+    
+    /* Second 2 */
+    .main-section2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    /* .sub-section1{
+        display: grid;
+        height: 40vh;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        justify-items: center;
+    
+    
+    }
+    .sub-div1{
+        height: 35vh;
+        width: 25vb;
+        background-color: black;
+    }
+    .sub-div2{
+        height: 35vh;
+        width: 25vb;
+        background-color: black;
+    } */
+    
+    
+    .sub-section2{
+        display: grid;
+        /* background-color: rgb(0, 140, 255); */
+        height: 40vh;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    
+    
+    }
+    .sub1-div1{
+        height: 20vh;
+        background-color: rgb(135, 90, 32);
+    }
+    .sub2-div2{
+        height: 20vh;
+        background-color: burlywood;
+    }
+    .sub3-div3{
+        height: 20vh;
+        background-color: rgb(183, 133, 68);
+    }  
+}
+
+@media only screen and (max-width: 509px) {
+    header{
+        display: flex;
+        height: 10vh;
+        background-color: rgb(250, 221, 221);
+        border: 1px solid black;
+        margin-bottom: 10px;
+    
+    }
+    .main-section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    
+    }
+    .sub1-section1{
+        background-color:rgb(235, 180, 108);
+        height: 40vh;
+    }
+    .sub2-section2{
+        background-color:burlywood;
+        height: 40vh;
+    }
+    
+    
+    
+    
+    
+    /* Second 2 */
+    .main-section2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    /* .sub-section1{
+        display: grid;
+        height: 40vh;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        justify-items: center;
+    
+    
+    }
+    .sub-div1{
+        height: 35vh;
+        width: 25vb;
+        background-color: black;
+    }
+    .sub-div2{
+        height: 35vh;
+        width: 25vb;
+        background-color: black;
+    } */
+    
+    
+    .sub-section2{
+        display: grid;
+        /* background-color: rgb(0, 140, 255); */
+        height: 40vh;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    
+    
+    }
+    .sub1-div1{
+        height: 20vh;
+        background-color: rgb(135, 90, 32);
+    }
+    .sub2-div2{
+        height: 20vh;
+        background-color: burlywood;
+    }
+    .sub3-div3{
+        height: 20vh;
+        background-color: rgb(183, 133, 68);
+    } 
+}
